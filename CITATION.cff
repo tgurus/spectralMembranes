@@ -1,0 +1,22 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite the associated paper."
+type: software
+title: "spectral_membranes"
+version: "4.0"
+date-released: 2026-03-31
+authors:
+  - family-names: "Reimer Morales"
+    given-names: "John"
+    affiliation: "Independent Researcher"
+    email: "jrm@globalharmonics.org"
+license: MIT
+repository-code: "https://github.com/[to-be-filled]/spectral-membranes"
+preferred-citation:
+  type: article
+  title: "Spectral connectivity descriptors separate inner from outer mitochondrial membranes in cryo-electron tomography"
+  authors:
+    - family-names: "Reimer Morales"
+      given-names: "John"
+  journal: "Journal of Cell Biology"
+  year: 2026
+  status: submitted
