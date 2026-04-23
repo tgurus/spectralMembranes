@@ -1,11 +1,22 @@
-
 [build-system]
 requires = ["setuptools>=61"]
 build-backend = "setuptools.build_meta"
 
 [project]
 name = "spectral-membranes"
-version = "0.1.0"
-description = "Graph- and mesh-spectral morphometrics for cryo-ET membrane meshes"
+version = "1.0.0"
+description = "Spectral connectivity descriptors for cryo-ET membrane surfaces"
+readme = "README.md"
 requires-python = ">=3.10"
+license = {text = "GPL-3.0"}
+authors = [
+    {name = "John Reimer Morales", email = "jrm@globalharmonics.org"},
+]
 dependencies = ["numpy", "scipy", "matplotlib"]
+
+[project.optional-dependencies]
+extraction = ["h5py", "pandas"]
+
+[project.urls]
+Repository = "https://github.com/tgurus/spectralMembranes"
+Paper = "https://doi.org/PENDING"
